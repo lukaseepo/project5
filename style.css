@@ -675,6 +675,12 @@ a {
   padding-top: 20px;
 }
 
+@media only screen and (max-width: 1125px) {
+  .latest-section .latest-items .latest-item .latest .sm-info {
+    width: 100%;
+  }
+}
+
 .latest-section .latest-items .latest-item .latest .sm-info a {
   color: #343434;
   font-size: 1.125rem;

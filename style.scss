@@ -456,6 +456,9 @@ a {
                     flex-direction: column;
                     padding-left: 20px;
                     padding-top: 20px;
+                    @media only screen and (max-width: 1125px) {
+                        width: 100%;
+                    }
                     a {
                         color: $black;
                         font-size: 1.125rem;
