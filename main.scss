@@ -1,0 +1,46 @@
+$black: #343434;
+$grey: #767676;
+$white: #fff;
+$green: #23a592;
+$lightgrey: #f2f2f2;
+$grey2: #86878a;
+@mixin info {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    h3 {
+        color: $black;
+        font-size: 2.1rem;
+    }
+    a {
+        font-size: .9rem;
+        color: $grey;
+        padding-top: 10px;
+        &:hover {
+            color: $green;
+            transition: 0.5s;
+        }
+    }
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    font-family: arial;
+    border-style: none;
+    outline-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1125px;
+    margin: auto;
+    @media only screen and (max-width: 1125px) {
+        width: 100%;
+    }
+}

@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style-type: none;
+  font-family: arial;
+  border-style: none;
+  outline-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1125px;
+  margin: auto;
+}
+
+@media only screen and (max-width: 1125px) {
+  .container {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=main.css.map */
